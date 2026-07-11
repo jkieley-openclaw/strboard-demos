@@ -2,12 +2,14 @@ const demos = [
   {
     id: "BTS-018",
     title: "Lead Vault & book-of-business upload",
-    summary: "Upload CSV or Excel contacts, stage and categorize them, remove stale entries, and convert a qualified lead with clear account handoff details.",
+    summary: "Upload CSV or Excel contacts into a server-backed, per-loan-officer vault, then stage, categorize, remove, or explicitly convert them without touching the active pipeline.",
     video: "BTS-018-lead-vault-book-of-business-upload.mp4",
     prs: [
       ["UI #366", "https://github.com/strboard/ui-react/pull/366"],
       ["UI #367", "https://github.com/strboard/ui-react/pull/367"],
       ["UI #368", "https://github.com/strboard/ui-react/pull/368"],
+      ["UI #371", "https://github.com/strboard/ui-react/pull/371"],
+      ["API #216", "https://github.com/strboard/api-nodejs/pull/216"],
     ],
   },
   {
